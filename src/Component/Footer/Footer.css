@@ -1,0 +1,47 @@
+#footer-cf h2{
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: wheat;
+}
+#footer-cf ul{
+    padding: 20px 0;
+    list-style: none;
+    text-align: center;
+}
+#footer-cf ul li{
+    padding: 5px 13px;
+    margin: 0 4px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(64, 131, 255);
+}
+#footer-cf ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-cf p b{
+    font-size: 18px;
+    color: white;
+}
+#footer-cf input{
+    height: 38px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px rgb(26, 25, 25);
+    outline: none;
+    margin: 0 5px;
+    padding: 2px 8px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#footer-cf button{
+    font-weight: 600;
+}
+#reg{
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+}

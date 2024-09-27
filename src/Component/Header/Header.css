@@ -1,0 +1,16 @@
+#header-cf a{
+    color: white;
+}
+#header-cf a h1{
+    font-weight: 700;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#header-cf ul{
+   width: 100%;
+}
+#header-cf li{
+    font-size: 20px;
+    font-weight: 600;
+}

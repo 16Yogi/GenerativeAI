@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css'
+import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 export default function Header() {
   return (
     <>
@@ -9,23 +10,17 @@ export default function Header() {
             <a class="navbar-brand" href="/">
               <h1>Genrative<span className="text-info">AI</span></h1>
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
+            
+            <button className="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span className="navbar-toggler-icon text-white font-weight-bolder">
+                <DensityMediumIcon></DensityMediumIcon>
+              </span>
             </button>
 
             <div
-              class="collapse navbar-collapse d-flex"
-              id="navbarSupportedContent"
+              className="collapse navbar-collapse  header-nav" id="collapsibleNavbar"
             >
-              <ul class="navbar-nav mr-auto">
+              <ul class="navbar-nav mr-auto d-flex justify-content-end">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">
                     Home

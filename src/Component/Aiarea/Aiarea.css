@@ -2,7 +2,13 @@
     height: 400px;
     width: 100%;
     border-radius: 5px;
-    background-color: rgb(0, 0, 0,0.5);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* background-color: rgb(0, 0, 0,0.5); */
+}
+#ai-cf #ai-c .camera #camera{
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
 }
 #ai-cf #ai-c .ai{
     height: 400px;
@@ -17,4 +23,14 @@
     border-radius: 5px;
     border: 0.3px solid rgb(255, 249, 249);
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+#ai-cf #ai-c .control{
+    height: auto;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#ai-cf #ai-c .control i{
+    cursor: pointer;
 }
